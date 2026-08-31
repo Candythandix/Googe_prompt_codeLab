@@ -1,20 +1,9 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🐍 CuteSnake — A Charming Real-Time Snake App
 
-# Run and deploy your AI Studio app
+**CuteSnake** is a lightweight, adorable multi-tier desktop game built using **Java**, **Python**, and **SQL (PostgreSQL / SQLite)**. It takes the classic arcade game and adds a real-time global leaderboard, customized cozy themes, and simple socket-based online high-score tracking!
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/c4401835-55eb-4fbd-832e-c3d747501cf0
+## 🏗️ Architecture & How It Works
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+CuteSnake follows a clear client-server model: the **Java** frontend manages the local game loop and graphics, the **Python** backend processes scores and user authentication, and **SQL** persistently tracks player stats.
